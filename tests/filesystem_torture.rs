@@ -1,8 +1,7 @@
-use std::{
-    fs,
-    path::Path,
-    process::{Command, Stdio},
-};
+use std::{fs, path::Path, process::Command};
+
+#[cfg(windows)]
+use std::process::Stdio;
 
 use serde_json::Value;
 use tempfile::tempdir;
