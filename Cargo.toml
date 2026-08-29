@@ -1,0 +1,18 @@
+[package]
+name = "dirrake"
+version = "0.2.0"
+edition = "2024"
+description = "Fast, read-only filesystem inspection with a compact human CLI and stable agent output"
+repository = "https://github.com/PerceivingAI/dirrake"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1.0.104"
+chrono = "0.4.45"
+clap = { version = "4.6.6", features = ["derive"] }
+ignore = "0.4.33"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = { version = "1.0.151", features = ["arbitrary_precision"] }
+
+[dev-dependencies]
+tempfile = "3.27.0"
