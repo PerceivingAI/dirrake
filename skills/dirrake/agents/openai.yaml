@@ -1,0 +1,7 @@
+interface:
+  display_name: "DirRake"
+  short_description: "Inspect filesystem metadata with DirRake"
+  default_prompt: "Use $dirrake to inspect this directory and summarize its largest files and directories."
+
+policy:
+  allow_implicit_invocation: true

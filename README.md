@@ -46,6 +46,16 @@ dirrake capabilities json
 
 See [INSTALL.md](INSTALL.md) for build paths, PATH setup, updating, and uninstalling.
 
+## Codex skill
+
+This repository includes a Codex skill that teaches agents how to choose DirRake commands and interpret its structured output. Install DirRake first, then ask Codex:
+
+```text
+Use $skill-installer to install https://github.com/PerceivingAI/dirrake/tree/main/skills/dirrake
+```
+
+The skill becomes available on the next Codex turn. Its source is in [`skills/dirrake`](skills/dirrake).
+
 ## Commands
 
 | Command | Purpose | Example |
